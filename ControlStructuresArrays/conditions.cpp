@@ -73,10 +73,21 @@ void doWhileAuthenticate() {
     } while(!authenticate) ;
 }
 
+void forOdd() {
+    for (int i = 0; i <= 10; i++) {
+        if (i % 2 == 0) {
+            cout << i << " is Even" << endl ;
+        } else {
+            cout << i << " is Odd" << endl ;
+        }
+    }
+}
+
 int main() {
-    checkIf(30) ;
-    arithmeticIf(30, 25) ;
+    // checkIf(30) ; 
+    // arithmeticIf(30, 25) ; 
     // switchSt() ;
-    whileCount() ;
-    doWhileAuthenticate() ;
+    // whileCount() ; 
+    // doWhileAuthenticate() ; 
+    // forOdd() ;
 }
